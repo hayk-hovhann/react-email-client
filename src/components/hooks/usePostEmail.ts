@@ -1,6 +1,6 @@
 import { useCallback, useState } from "react";
 
-const BASE_URL = `https://technotes.com`;
+const BASE_URL = `https://react-email-backend.onrender.com`;
 
 const usePostEmail = () => {
   const [loading, setLoading] = useState(false);
