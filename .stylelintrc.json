@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "stylelint-config-standard-scss",
+    "stylelint-config-idiomatic-order",
+    "./node_modules/prettier-stylelint/config.js",
+    "stylelint-prettier/recommended",
+    "stylelint-config-prettier"
+  ],
+  "plugins": ["stylelint-prettier"],
+  "rules": {
+    "string-quotes": "double",
+    "prettier/prettier": true
+  }
+}
